@@ -8,8 +8,8 @@ Two examples of reading XML:
 
 <br/><br/><br/><br/><br/><br/>
 # SQL Query task
-<img src="phpmyadmin-persons.png" alt="Database data"/>
 <img src="task.png" alt="Task"/>
+<img src="phpmyadmin-persons.png" alt="Database data"/>
 <br/><br/>
 
 **Right answer:**
