@@ -12,9 +12,9 @@ Two examples of reading XML:
 <br/><br/>
 
 **Right answer:**
-Click [here](phpmyadmin-persons.png") to see correct SQL Query response in PhpMyAdmin<br/>
+Click [here](phpmyadmin-persons.png") to see image of correct SQL Query response in PhpMyAdmin<br/>
 
 <details>
-  <summary>Correct SQL Query (Answer)</summary>
+  <summary>Correct Answer (SQL Query)</summary>
 ``` SELECT (SELECT products.Title FROM products WHERE products.id = product_variants.product_id) AS title, colour, (SELECT GROUP_CONCAT(size SEPARATOR '|')) AS size FROM product_variants GROUP BY colour, title ORDER BY title, size, colour ```
 </details>
