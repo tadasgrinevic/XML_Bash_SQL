@@ -10,7 +10,6 @@ Two examples of reading XML:
 \
 \
 \
-\
 
 <img src="phpmyadmin-persons.png" alt="Database data"/>
 <img src="task.png" alt="Task"/>
