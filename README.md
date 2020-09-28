@@ -9,9 +9,8 @@ Two examples of reading XML:
 <br/><br/><br/><br/><br/><br/>
 # SQL Query task
 <img src="task.png" alt="Task"/>
-<img src="phpmyadmin-persons.png" alt="Database data"/>
 <br/><br/>
 
 **Right answer:**
-
+[PHPMyAdmin SQL Query response]<img src="phpmyadmin-persons.png" alt="Database data"/>
 ``` SELECT (SELECT products.Title FROM products WHERE products.id = product_variants.product_id) AS title, colour, (SELECT GROUP_CONCAT(size SEPARATOR '|')) AS size FROM product_variants GROUP BY colour, title ORDER BY title, size, colour ```
