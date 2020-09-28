@@ -5,7 +5,8 @@ This application can also be accessed by sending 2 agruments through [Bash scrip
 Two examples of reading XML:
 - [XML Read from file](index.php)
 - [XML Read from xml string](indexstring.php)
-\ \ \ \ \ \ \ \
+
+<br/><br/><br/><br/><br/><br/>
 <img src="phpmyadmin-persons.png" alt="Database data"/>
 <img src="task.png" alt="Task"/>
 
