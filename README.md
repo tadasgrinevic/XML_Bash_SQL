@@ -12,6 +12,6 @@ Two examples of reading XML:
 <br/><br/>
 
 **Right answer:**
-Click [here](phpmyadmin-persons.png") to see PHPMyAdmin SQL Query response <br/>
+Click [here](phpmyadmin-persons.png") to see correct SQL Query response in PhpMyAdmin<br/>
 
 ``` SELECT (SELECT products.Title FROM products WHERE products.id = product_variants.product_id) AS title, colour, (SELECT GROUP_CONCAT(size SEPARATOR '|')) AS size FROM product_variants GROUP BY colour, title ORDER BY title, size, colour ```
