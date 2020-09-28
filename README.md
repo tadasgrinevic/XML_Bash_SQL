@@ -3,8 +3,8 @@ This application is example of how to use xml loader and how to fetch data. It a
 This application can also be accessed by sending 2 agruments through [Bash script](docs/script.sh).
 
 Two examples of reading XML:
-- [XML Read from file](docs/index.php)
-- [XML Read from xml string](docs/indexstring.php)
+- [XML Read from file](index.php)
+- [XML Read from xml string](indexstring.php)
 
 
 
