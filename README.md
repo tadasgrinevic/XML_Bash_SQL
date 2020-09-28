@@ -12,7 +12,7 @@ Two examples of reading XML:
 <br/><br/>
 
 **Right answer:**
-Click [here](phpmyadmin-persons.png") to see image of correct SQL Query response in PhpMyAdmin<br/>
+Click [here](phpmyadmin-persons.png") to see image of correct SQL Query response in PhpMyAdmin<br/> or open spoiler below to see SQL Query code.
 
 <details>
   <summary>Correct Answer (SQL Query)</summary>
