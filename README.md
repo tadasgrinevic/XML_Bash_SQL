@@ -17,6 +17,6 @@ Click [here](phpmyadmin-persons.png) to see image of correct SQL Query response 
 <details>
   <summary>Correct Answer (SQL Query)</summary>
   
-```SELECT (SELECT products.Title FROM products WHERE products.id = product_variants.product_id) AS title, colour, (SELECT GROUP_CONCAT(size SEPARATOR '|')) AS size FROM product_variants GROUP BY colour, title ORDER BY title, size, colour```
+```SELECT products.Title, product_variants.colour, GROUP_CONCAT(product_variants.size SEPARATOR '|') as size FROM product_variants INNER JOIN products ON products.id = product_variants.product_id GROUP BY colour, title ORDER BY title, size ASC```
 
 </details>
