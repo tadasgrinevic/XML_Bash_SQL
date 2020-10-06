@@ -4,7 +4,7 @@ This application can also be accessed by sending 2 agruments through [Bash scrip
 
 3 examples of reading XML:
 - [XML Read from file with XPath](index.php)
-- [XML Read from file without using XPath](index.php)
+- [XML Read from file without using XPath](indexc.php)
 - [XML Read from xml string](indexstring.php)
 
 <br/><br/>
