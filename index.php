@@ -10,7 +10,6 @@ if(isset($argv[1]) && isset($argv[2]))
     $output = "data/persons.csv";
 }
 
-
 libxml_use_internal_errors(TRUE);
 $xml = simplexml_load_file($input); // Loading XML file
 
@@ -29,7 +28,6 @@ if(!($xml instanceof SimpleXMLElement))
     echo 'Error ' . $errorStr;
     exit;
 }
-
 
 function createCsv($xml, $output)
 {
