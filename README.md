@@ -2,8 +2,9 @@
 This application is example of how to use **xml loader** with or without **XPath** and how to fetch data. It also includes *.CSV* file building.
 This application can also be accessed by sending 2 agruments through [Bash script](script.sh).
 
-Two examples of reading XML:
-- [XML Read from file](index.php)
+3 examples of reading XML:
+- [XML Read from file with XPath](index.php)
+- [XML Read from file without using XPath](index.php)
 - [XML Read from xml string](indexstring.php)
 
 <br/><br/>
